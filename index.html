@@ -6,38 +6,120 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-<div class="">
+
+  <!-- column -->
+  <div class="columns-2 m-5 p-2 gap-4 md:columns-3 ...">
+    <h2>column</h2>
+    <img class="w-full aspect-video ..." src="./src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-auto ..." src="src/assest/1681106320418.jpg" />
+    <!-- ... -->
+  </div>
+  <div class="gap-x-2 gap-2 columns-3">
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-square ..." src="src/assest/1681106320418.jpg" />
+    <img class="w-full aspect-auto ..." src="src/assest/1681106320418.jpg" />
+  </div>
+  <!-- container -->
+  <h2>container</h2>
+  <div class="container mx-auto bg-slate-800 ">
+      <!-- ... -->
+        <p>xyz</p>
+    </div>
+  <!-- Aspect Ratio -->
+  <!-- <iframe width="500" height="200" src="https://www.youtube.com/embed/QgvWP54YO_8?si=gKh6IU8gG_UItRra" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+  <!-- Break After -->
+  
+  <!-- <div class="columns-2">
+    <p>Well, let me tell you something, ...</p>
+    <p class="break-after-column">Sure, go ahead, laugh...</p>
+    <p>Maybe we can live without...</p>
+    <p>Look. If you think this is...</p>
+  </div> -->
+
+      <!-- break before -->
+      <div class="columns-2 mt-16">
+        <p>Well, let me tell you something, ...</p>
+        <p class="break-before-column">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+      </div>
+<!-- box box-decoration-clone -->
+      <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+        Hello<br />
+        World
+      </span>
+      <span class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+        Hello<br />
+        World
+      </span>
+      <div class="box-decoration-clone text-black hover:box-decoration-slice hover:bg-gradient-to-r from-indigo-600 to-pink-500 hover:text-yellow-400 px-2">
+        <!-- ... -->
+        Hello<br />
+        World
+      </div>
+<!-- box setup -->
+<div class="box-border h-32 w-32 p-4 border-red-400 border-4 justify-items-center...">
+  <h2>Hello Indresh</h2>
+</div>
+
+<!-- flex -->
+<div class="flex items-center justify-center">
+  <img class="aspect-3/2 rounded-full h-1/2 w-14" src="./src/assest/1681106320418.jpg">
   <div>
-    <div class="flex items-center space-x-2 text-base">
-      <h4 class="font-semibold text-slate-900">Contributors</h4>
-      <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">204</span>
-    </div>
-    <div class="mt-3 flex -space-x-2 overflow-hidden">
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="./src/assest/1681106320418.jpg" alt=""/>
-    </div>
-    <div class="mt-3 text-sm font-medium">
-      <a href="#" class="text-blue-500">+ 198 others</a>
-    </div>
+    <strong>Andrew Alfred</strong>
+    <span>Technical advisor</span>
   </div>
 </div>
 
- <!-- respontive design -->
-  <!-- <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-4">
-    <div class="md:flex">
-      <div class="md:shrink-0">
-        <img class="h-48 w-full object-cover md:h-full md:w-48" src="/src/assest/1681106320418.jpg" alt="Modern building architecture">
-      </div>
-      <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-        <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-      </div>
+<!-- table 0 -->
+
+<div class="table w-full flex-1...">
+  <div class="table-header-group ...">
+    <div class="table-row">
+      <div class="table-cell text-left ...">Song</div>
+      <div class="table-cell text-left ...">Artist</div>
+      <div class="table-cell text-left ...">Year</div>
     </div>
-  </div> -->
+  </div>
+  <div class="table-row-group">
+    <div class="table-row">
+      <div class="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+      <div class="table-cell ...">Malcolm Lockyer</div>
+      <div class="table-cell ...">1961</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell ...">Witchy Woman</div>
+      <div class="table-cell ...">The Eagles</div>
+      <div class="table-cell ...">1972</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell ...">Shining Star</div>
+      <div class="table-cell ...">Earth, Wind, and Fire</div>
+      <div class="table-cell ...">1975</div>
+    </div>
+  </div>
+</div>
+<!-- position  -->
+<div class="relative">
+  <div class="fixed top-0 left-0 right-6">Contacts</div>
+  <div>
+    <div>
+      <img src="..." />
+      <strong>Andrew Alfred</strong>
+    </div>
+    <div>
+      <img src="..." />
+      <strong>Debra Houston</strong>
+    </div>
+    <!-- ... -->
+  </div>
+</div>
+
+</div>
 </body>
 </html>
